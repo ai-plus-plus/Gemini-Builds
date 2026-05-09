@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mm-green: rgb(120, 190, 33);
+  --color-mm-green-dark: rgb(91, 167, 99);
+  --color-mm-green-hover: rgb(69, 128, 75);
+  --color-mm-green-light: rgb(214, 226, 207);
+  --color-mm-text: rgb(78, 75, 72);
+  --color-mm-black: rgb(16, 24, 32);
+  --color-mm-gray-light: rgb(242, 242, 242);
+  --color-mm-gray: rgb(229, 228, 228);
+  --color-mm-border: rgb(200, 200, 199);
+
+  --font-sans: "Alexandria", helvetica, arial, sans-serif;
+  --font-serif: "Borax VF", georgia, serif;
+}
+
+@font-face { font-family: Alexandria; src: url(https://merrymaids.com/themes/custom/mm_brand/fonts/alexandria/alexandria-light.woff2) format("woff2"); font-weight: 300; font-style: normal; }
+@font-face { font-family: Alexandria; src: url(https://merrymaids.com/themes/custom/mm_brand/fonts/alexandria/alexandria-regular.woff2) format("woff2"); font-weight: normal; font-style: normal; }
+@font-face { font-family: Alexandria; src: url(https://merrymaids.com/themes/custom/mm_brand/fonts/alexandria/alexandria-semi-bold.woff2) format("woff2"); font-weight: bold; font-style: normal; }
+@font-face { font-family: "Borax VF"; src: url(https://merrymaids.com/themes/custom/mm_brand/fonts/borax/borax-regular.woff2) format("woff2"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Borax VF"; src: url(https://merrymaids.com/themes/custom/mm_brand/fonts/borax/borax-italic.woff2) format("woff2"); font-weight: normal; font-style: italic; }
+@font-face { font-family: "Borax VF"; src: url(https://merrymaids.com/themes/custom/mm_brand/fonts/borax/borax-bold-italic.woff2) format("woff2"); font-weight: bold; font-style: italic; }
+
+body {
+  color: var(--color-mm-text);
+  font-family: var(--font-sans);
+  background-color: white;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
